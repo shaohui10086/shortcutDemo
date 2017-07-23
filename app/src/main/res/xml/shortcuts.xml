@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="world_hot_2"
+        android:icon="@drawable/ic_world_hot"
+        android:shortcutShortLabel="@string/label_world_hot">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.tinyable.shortcutexample"
+            android:targetClass="com.tinyable.shortcutexample.MainActivity"/>
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+
+</shortcuts>

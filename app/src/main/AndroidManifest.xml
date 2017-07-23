@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tinyable.shortcutexample">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/app_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/app_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <!--<meta-data-->
+                <!--android:name="android.app.shortcuts"-->
+                <!--android:resource="@xml/shortcuts" />-->
+        </activity>
+        <activity android:name=".WorldHotActivity" >
+            <intent-filter>
+                <action android:name="com.tinyable.WorldHot" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".DailyVideoActivity" >
+            <intent-filter>
+                <action android:name="com.tinyable.DailyVideo" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RecommendationActivity" >
+            <intent-filter>
+                <action android:name="com.tinyable.Recommendation" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".TodayActivity">
+            <intent-filter>
+                <action android:name="com.tinyable.Today" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

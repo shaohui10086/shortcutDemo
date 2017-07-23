@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Shortcut</string>
+    <string name="label_world_hot">全球热读榜</string>
+    <string name="label_today">今日要闻</string>
+    <string name="label_daily_video">每日视频精选</string>
+    <string name="label_recommendation">编辑推荐</string>
+</resources>
